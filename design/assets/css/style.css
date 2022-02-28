@@ -3,24 +3,24 @@
 body {
     background-color: #39aae1;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Qr_Code_Card {
+    flex-direction: column;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-    margin: auto;
-    margin-top: 90px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 1rem;
     width: 300px;
 }
 
-.Qr_Code_image img {
+img {
     background-color: #FFFF;
     border-radius: 20px;
-    display: block;
-    margin: auto;
-    width: 75%;
+    width: 100%;
 }
 
 .Qr_Code_Text h1 {
@@ -39,10 +39,6 @@ body {
 
 @media(max-width: 600px) {
     .Qr_Code_Card {
-        width: 200px;
-        margin: auto;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        margin-top: 90px;
+        width: 250px;
     }
 }
