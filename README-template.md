@@ -29,7 +29,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Built with
 
 - HTML5 and CSS3
-- Responsive Design
+- Flexbox
+- Responisve Design
 
 ## Author
 
