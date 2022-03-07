@@ -9,7 +9,7 @@ body {
     align-items: center;
 }
 
-.Qr_Code_Card {
+.qr_code_card {
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
@@ -23,14 +23,14 @@ img {
     width: 100%;
 }
 
-.Qr_Code_Text h1 {
+.qr_code_text h1 {
     font-size: 19px; 
     font-family: 'Outfit';
     font-weight: bold;
     text-align: center;
 }
 
-.Qr_Code_Text p {
+.qr_code_text p {
     font-size: 15px; 
     font-family: 'Outfit';
     color: #5c5c5c;
@@ -38,7 +38,7 @@ img {
 }
 
 @media(max-width: 600px) {
-    .Qr_Code_Card {
+    .qr_code_card {
         width: 250px;
     }
 }
