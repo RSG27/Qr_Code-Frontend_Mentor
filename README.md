@@ -26,7 +26,7 @@
 
 - HTML5 and CSS3
 - Flexbox
-- Responisve Design
+- Responsive Design
 
 ## Author
 
