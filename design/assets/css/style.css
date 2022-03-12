@@ -37,8 +37,34 @@ img {
     text-align: center;
 }
 
+.attribution {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+	position:absolute;
+	bottom:15px;
+	width:100%;
+    gap: 5px;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
 @media(max-width: 600px) {
     .qr_code_card {
         width: 250px;
     }
+    .attribution {
+        display: flex;
+        font-size: 10px;
+        flex-direction: column end;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        width:100%;
+        gap: 5px;
+    }
+    
 }
